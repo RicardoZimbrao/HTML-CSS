@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{
+    background-color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(251, 195, 54);
+}
+h1{
+    color: brown;
+}
+.basico {
+color: blue;
+
+}
+
+h1#Principal{
+    text-align: center;
+    background-color: blue;
+}
+
+.destaque {
+    background-color: cornflowerblue;
+}
+
+/*Class = clasifica varios titulos ao msm tempo/*
+/* Em HTML ID em CSS e #
+Class em HTML em CSS e . /*
