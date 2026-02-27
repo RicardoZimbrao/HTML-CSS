@@ -13,8 +13,13 @@
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto;
-        gap: 5px;
-        
+        grid-auto-rows: 100px;
+        grid-auto-columns: 100px;
+        grid-template: 100px 100px 100px /
+        auto auto auto;
+        gap: 10px;
+        place-items: stretch center; /*junçao align-itens e justifi-itens*/
+        place-content: start end; /* Junção align-content e justify-content*/
     }
 
     div.item {
